@@ -1,14 +1,12 @@
 package com.levviata.benchmarkhelper.listener;
 
-import com.levviata.benchmarkhelper.BenchmarkHelper;
 import com.levviata.benchmarkhelper.utils.WorldUtils;
 import net.minecraft.client.Minecraft;
-import net.minecraftforge.client.event.GuiScreenEvent;
-import net.minecraftforge.client.event.GuiScreenEvent.InitGuiEvent;
-import net.minecraftforge.client.event.GuiScreenEvent.ActionPerformedEvent;
-import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiWorldSelection;
+import net.minecraftforge.client.event.GuiScreenEvent;
+import net.minecraftforge.client.event.GuiScreenEvent.InitGuiEvent;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class BenchmarkButtonHandler {
     private final WorldUtils worldHandler = new WorldUtils();

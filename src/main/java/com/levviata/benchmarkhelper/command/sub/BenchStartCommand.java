@@ -2,7 +2,6 @@ package com.levviata.benchmarkhelper.command.sub;
 
 import com.levviata.benchmarkhelper.gui.BenchHelperScreen;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.settings.GameSettings;
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
@@ -10,7 +9,6 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.SoundCategory;
-import net.minecraftforge.common.MinecraftForge;
 
 public class BenchStartCommand extends CommandBase {
     @Override

@@ -1,15 +1,8 @@
 package com.levviata.benchmarkhelper.utils;
 
 import net.minecraft.client.Minecraft;
-import net.minecraft.server.MinecraftServer;
-import net.minecraft.world.WorldServer;
 import net.minecraft.world.WorldSettings;
 import net.minecraft.world.WorldType;
-import net.minecraft.world.storage.SaveHandlerMP;
-import net.minecraft.world.storage.WorldInfo;
-
-import java.io.File;
-import java.util.Arrays;
 
 public class WorldUtils {
     public void createAndLoadWorld(String worldName) {
