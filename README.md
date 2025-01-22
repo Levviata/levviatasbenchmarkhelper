@@ -2,7 +2,7 @@
 Helps you benchmark minecraft
 
 ## Conventions
-Some of the rules used in this project.
+Some of the rules used in this project, check them out.
 
 Versioning:
 - [SemVer](https://semver.org/)
