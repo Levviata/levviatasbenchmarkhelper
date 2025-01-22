@@ -1,9 +1,11 @@
 package com.levviata.benchmarkhelper;
 
 import com.levviata.benchmarkhelper.listeners.MovementHandler;
+import com.levviata.benchmarkhelper.command.BenchHelperCommand;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -21,6 +23,9 @@ public class BenchmarkHelper {
     public void preInit(FMLPreInitializationEvent event) {
         LOGGER.info("Hello From {}!", Tags.MOD_NAME);
         MinecraftForge.EVENT_BUS.register(new MovementHandler());
+    @Mod.EventHandler
+    public void onServerStarting(FMLServerStartingEvent event) {
+        event.registerServerCommand(new BenchHelperCommand());
     }
 
 }
