@@ -2,7 +2,7 @@
 Helps you benchmark minecraft
 
 ## Conventions
-Some of the rules used in this project, check them out.
+Some of the rules I want or will implement. TODO: clarify everything here
 
 Versioning:
 - [SemVer](https://semver.org/)
@@ -12,3 +12,6 @@ Commiting:
 
 Changelog:
 - [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
+
+Coding style:
+- [cs2110](https://www.cs.cornell.edu/courses/cs2110/2025sp/style.html)
