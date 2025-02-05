@@ -1,5 +1,5 @@
 {
-	"package": "",
+	"package": "com.levviata.benchmarkhelper.mixin",
 	"required": true,
 	"refmap": "${mixin_refmap}",
 	"target": "@env(DEFAULT)",
